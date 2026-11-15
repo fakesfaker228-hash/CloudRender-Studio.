@@ -1,0 +1,21 @@
+
+{
+  "name": "cloudrender-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.tsx Main out/animation.mp4 --gl=swangle --concurrency=2"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "remotion": "4.0.543",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/three": "0.180.0",
+    "typescript": "5.8.3"
+  }
+}
